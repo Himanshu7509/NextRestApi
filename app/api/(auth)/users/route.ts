@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import User from "@/lib/modals/user";
 import connect from "@/lib/db"
 import { Types } from "mongoose";
-import { NestedMiddlewareError } from "next/dist/build/utils";
+
 
 const ObjectId = require("mongoose").Types.ObjectId;
 
